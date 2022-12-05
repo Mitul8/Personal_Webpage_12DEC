@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Engg.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="Index.html">Home<img src="images/home.jpg"></a></li>
+                    <li><a href="Engg.html">Engg<img src="/images/engg.png"></a></li>
+                    <li><a href="curiosity.html">Curiosity<img src="/Images/search.png"></a></li>
+                    <li><a href="Read.html">Read<img src="/Images/eyes.jpg"></a></li>
+
+        </nav>
+    </div>
+    <div class="para">
+        <p>
+            This section presents some of the technical/research projects that I worked on and thought would be
+            interesting for your perusal. Instead of technical depth, the focus is more on the problem formulation,
+            solution
+            approach,and generic learning that could be applied somewhere else as well. Interested readers would find
+            the
+            links helpful for further exploration.
+        </p>
+    </div>
+    <div class="heading">
+        <h1>Slurry Flows and Cellular Automata</h1>
+        <p>As one of the research topics I explored physics-based cellular automata to simulate particle laded flow and
+            slurry flows. Although this is still at an academic level, the approach gave me great learnings in numerical
+            simulations. Some key learnigs to share are:
+            <li>
+                Coding CA particle solver in C++. This was a major undertaking and interested readers please take a look
+                at the Appendix section of the thesis.
+            </li>
+            <li>
+                I combined the above particle solver with fluid solver in Ansys FLUENT®. This was done through User
+                Defined Functions (UDF) and was not trivial.
+            </li>
+            <li>
+                As you delve deeper to capture the physics of particle flows soon you will come across challenges to
+                discover new CA rules and philosophical part
+            </li>
+
+        <p>The animation on the left is a CA-based simulation for one of the experimental cases discussed in the thesis.
+        </p>
+        </p>
+
+        <h1>Managing End-of-Life Systems in Semiconductor Manufacturing Using Health Index</h1>
+        <p>Equipment at the end of functional life poses several challenges for manufacturing operations and long-term
+            asset sustainability. This is even critical for semiconductor manufacturing where equipment upgrades are
+            capital intensive with a longer return horizon. This demands an objective and quantifiable approach to
+            manage and monitor the end-of-life health of the manufacturing systems.<br>
+            <br>This work presents a practical three-level approach that brings together engineering, operational, and
+            supply chain factors under a single indicator. A visualization heatmap correlates equipment health to
+            manufacturing impact for engineering and commercial decision-making. The approach is simple yet proven to be
+            effective in fab environments. The proposed analysis applies in formulating system priorities, upgrade
+            strategies, and capital expenditures. Brief guidance on health improvement strategies, application to new
+            fab, and cost-based evaluation are presented for practical use.
+        </p>
+
+        <h1>Probabilistic Approach for Equipment Reliability</h1>
+        <li>
+            Problem: For large and complex systems, such as power plants or heavy machinery, many features, events, and
+            processes that control the failure modes are not known with accuracy. Additionally, these systems have
+            interdependencies and redundancies. Such complex systems are not mass produces therefore their time history
+            is limited for meaningful data analytics. Despite this inherent uncertainty you still need to quantify
+            system performance over time. How will you proceed?
+        </li>
+        <li>
+            Solution Approach: In these scenarios, a probabilistic analysis may provide an implementable solution. You
+            capture the uncertainties at each component in the form of probability functions. This may need subjective
+            assessment. Then propagate this uncertainty through the system model that accounts for interdependencies and
+            redundancies.
+        </li>
+        <li>
+            Learnings: See various case studies done using GoldSim, a Monte-Carlo based simulation software here:
+        </li>
+
+    </div>
+
+    <div class="footer">
+
+        <div class="footer-page">
+            <h2>Contact Me</h2>
+            <a href="#"><img src="images/mail.jpg"></a>
+            <a href="https://www.linkedin.com/in/dcpatil"><img src="images/linkedin.png"></a>
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
